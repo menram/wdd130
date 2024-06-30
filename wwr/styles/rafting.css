@@ -30,6 +30,10 @@ p {
     padding: 25px;
 }
 
+footer a {
+    text-decoration: none;
+}
+
 .hero div {
     position: relative;
 }
