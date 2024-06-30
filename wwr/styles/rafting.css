@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root {
+    --primary-color: #003049;
+    --secondary-color: #EAE2B7; /* 234,226,183 */
+    --accent1-color: #FCBF49;
+    --accent2-color: #F77F00; /* 247,127,0 */
+  
+    --heading-font: 'Open Sans', serif;
+    --paragraph-font: 'Open Sans', serif;
+  
+    --nav-background-color: #003049;
+    --nav-link-color: #FFFFFF;
+    --nav-hover-link-color: #003049;
+    --nav-hover-background-color: #EAE2B7;
+  }
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+  }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+p {
+    padding: 25px;
+}
+
+.hero div {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.hero h1 {
+    position: absolute;
+    top: 222px;
+    width: 100%;
+    max-width: 940px;
+    padding-right: 20px;
+    text-align: right;
+    background-color: var(--accent1-color);/*rgba(234, 226, 183, 0.5);*/
+}
+
+.hero article {
+    position: absolute;
+    top: 622px;
+    left: 80px;
+    width: 100%;
+    max-width: 815px;
+    padding: 20px;
+    background-color: rgba(247, 127, 0, 0.7);
+}
+
+.hero article img {
+    width: 200px;
+    height: auto;
+    float: right;
+}
