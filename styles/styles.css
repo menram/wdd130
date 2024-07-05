@@ -29,6 +29,10 @@ p {
   padding: 10px;
 }
 
+div.grid {
+  display: grid;
+  grid-template-columns: 35% 65%;
+}
 main {
   /*max-width: 840px;*/
   grid-column: 2/3;
@@ -80,9 +84,4 @@ footer {
   padding: 1rem;
   background-color: #f0f0f0;
   color: #464646;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: 35% 65%;
 }
