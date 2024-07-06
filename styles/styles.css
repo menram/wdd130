@@ -23,6 +23,7 @@ nav a {
 h1 {
   color: #0f355c;
   border-bottom: 1px solid #0f355c;
+  padding: 10px;
 }
 
 p {
@@ -62,27 +63,26 @@ aside img {
 
 aside h2 {
   position: absolute;
-  top: 20px;
-  left: 80px;
+  top: 40px;
+  left: 60px;
 }
 
 header, .grid, footer {
   width: 840px;
   margin: 0 auto;
-  text-align: center;
+  align-items: center;
 }
-/*
+
 footer {
-  margin-top: 20px;
   border-top: 1px solid black;
   text-align: center;
 }
-*/
+
 /* Class Selectors */
 .box {
   margin: 1rem;
   border: 1px solid #0f355c;
   padding: 1rem;
   background-color: #f0f0f0;
-  color: #464646;
+  color: #181818;
 }
