@@ -26,12 +26,103 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--primary-color);
 }
 
+header {
+    display: grid;
+	grid-template-columns: 1fr 2fr;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
 p {
     padding: 25px;
 }
 
+footer{
+    display: grid;
+	grid-template-columns: 1fr repeat(3,70px);
+    margin: 1em;
+}
+
+footer p {
+    display: flex;
+    margin: auto;
+}
+
 footer a {
+    display: flex;
+    margin: 0;
     text-decoration: none;
+}
+
+.logo {
+    margin: auto;
+}
+
+.history {
+    display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.history h2 {
+    grid-column: 1 / span 3;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: right;
+    background-color: var(--accent1-color);/*rgba(234, 226, 183, 0.5);*/
+}
+
+.history img {
+    margin: auto;
+    width: 200px;
+    height: auto;
+}
+
+.adventures {
+    display: grid;
+	grid-template-columns: repeat(5, 1fr);
+}
+
+.adventures h2 {
+    grid-column: 1 / span 5;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: right;
+    background-color: var(--accent1-color);/*rgba(234, 226, 183, 0.5);*/
+}
+
+.adventures figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.adventures img {
+    width: 80%;
 }
 
 .hero div {
