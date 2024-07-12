@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 130 | Course Home - Quiz Form</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body>
+    <header>
+        <h1>WDD 130 | Ricardo Mendoza Ramos | Course Home - Quiz Form</h1>
+    </header>
+    <main>
+        <form>
+            <div class="form-item">
+                <label for="q1">What does HTML stand for?</label>
+                <input type="text" id="q1" name="qHTML">
+            </div>
+            <div class="form-item">
+                <label for="q2">List the elements of the Development Standards Checklist:</label>
+                <textarea id="q2" name="qDevStdChecklist" rows="4" placeholder="Enter each element in a different line..."></textarea>
+            </div>
+            <div class="form-item">
+                <label for="q3">In HTML, what is the smallest header?</label>
+                <select id="q3" name="qHeader">
+                    <option value="" selected disabled>Choose One ...</option>
+                    <option value="h1">h1</option>
+                    <option value="h4">h4</option>
+                    <option value="h2">h2</option>
+                    <option value="h6">h6</option>
+                </select>
+            </div>
+            <div class="form-item">
+                <label for="q4">In the following statement, what is the top padding value?</label>
+                <div class="form-snip">
+                    padding: 25px 50px 75px 100px;
+                </div>
+                <input type="number" id="q4" name="qPadding">
+            </div>
+            <button type="submit">Submit Quiz</button>
+        </form>        
+    </main>
+    <footer>
+        <p>&copy;2024 | Course Home - Quiz Form | Ricardo Mendoza Ramos</p>
+    </footer>
+</body>
+</html>
