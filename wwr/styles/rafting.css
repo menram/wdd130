@@ -75,6 +75,43 @@ footer a {
     text-decoration: none;
 }
 
+form {
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+}
+
+legend, label {
+    padding: 5px;
+}
+
+input, textarea {
+    padding: 1rem;
+    border-radius: .5rem;
+    font-size: large;
+}
+
+button {
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+
 .logo {
     margin: auto;
 }
@@ -158,4 +195,88 @@ footer a {
     width: 200px;
     height: auto;
     float: right;
+}
+
+.contact {
+    display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.contact h1 {
+    grid-column: 1 / span 2;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: right;
+    background-color: var(--accent1-color);/*rgba(234, 226, 183, 0.5);*/
+}
+
+.company {
+    display: flex;
+    font-weight: bold;
+    flex-flow: column;
+    width: 80%;
+}
+
+.company div {
+    border: 1px solid lightgrey;
+    border-radius: 25px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.company-info {
+    display: grid;
+	grid-template-columns: repeat(2, 1fr);
+    flex-direction: row;
+    align-items: center;
+}
+
+.company-info-2 {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+}
+
+.company-info img {
+    width: 32px;
+    padding: 10px;
+}
+.company-info-header {
+    font-size: small;
+    font-weight: normal;
+}
+
+.map {
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    width: 80%;
+}
+
+.employee {
+    display: grid;
+	grid-template-columns: repeat(3, 1fr);
+    width: 80%;
+}
+
+.employee figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.employee img {
+    width: 100px;
+}
+
+.radio-options {
+    display: grid;
+    flex-direction: column;
+}
+
+.form-check {
+    padding: 1rem;
 }
