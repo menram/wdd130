@@ -406,3 +406,52 @@ button:hover {
 .trips img:hover {
     width: 100%;
 }
+
+.offers {
+    display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.offers h2 {
+    grid-column: 1 / span 3;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: right;
+    background-color: var(--accent1-color);/*rgba(234, 226, 183, 0.5);*/
+}
+
+.offers img {
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
+
+.offers span {
+    background-color: rgba(255,255,255,0.5);
+}
+
+.offers div {
+    margin: auto;
+    padding: 1em;
+    width: 70%;
+    height: 90%;
+    background-color: rgba(247, 127, 0, 0.7);
+}
+
+.offers figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.offers figcaption {
+    padding: 1em;
+    font-weight: 700;
+}
+
+.offers img {
+    width: 80%;
+}
