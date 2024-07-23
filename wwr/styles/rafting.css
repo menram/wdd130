@@ -162,6 +162,13 @@ button:hover {
     width: 80%;
 }
 
+.adventures figcaption {
+    font-size: small;
+    font-weight: bold;
+    text-align: center;
+    padding: 1em;
+}
+
 .hero div {
     position: relative;
 }
@@ -279,4 +286,123 @@ button:hover {
 
 .form-check {
     padding: 1rem;
+}
+
+.book div {
+    position: relative;
+}
+
+.book img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.book h1 {
+    position: absolute;
+    top: 222px;
+    width: 100%;
+    max-width: 940px;
+    padding-right: 20px;
+    text-align: right;
+    background-color: var(--accent1-color);/*rgba(234, 226, 183, 0.5);*/
+}
+
+.book article {
+    position: absolute;
+    top: 600px;
+    left: 80px;
+    width: 100%;
+    max-width: 815px;
+    padding-top: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgba(247, 127, 0, 0.7);
+}
+
+.book article img {
+    width: 200px;
+    height: auto;
+    float: right;
+}
+
+.book h2 {
+    padding: 2px;
+    text-align: center;
+    background-color: var(--accent1-color);/*rgba(234, 226, 183, 0.5);*/
+}
+
+.book h2:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+.book a {
+    text-decoration: none;
+}
+
+.book article p {
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
+
+.trips {
+    display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.trips h2 {
+    grid-column: 1 / span 3;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: right;
+    background-color: var(--accent1-color);/*rgba(234, 226, 183, 0.5);*/
+}
+
+.trips img {
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
+
+.trips div {
+    margin: auto;
+    padding: 1em;
+    width: 70%;
+    height: 100%;
+    color: var(--nav-link-color);
+    background-color: var(--nav-background-color);
+}
+
+.trips div:hover {
+    color: var(--primary-color);
+    background-color: var(--accent1-color);
+    font-size: larger;
+    width: 80%;
+}
+
+.trips figure:hover {
+    visibility: visible;
+}
+
+.trips figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.trips figcaption {
+    padding: 1em;
+    font-weight: 700;
+}
+
+.trips img {
+    width: 80%;
+}
+
+.trips img:hover {
+    width: 100%;
 }
